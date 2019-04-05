@@ -1,2 +1,9 @@
 # testing and validation data
 tests/data
+
+# data folders
+data/train/*/
+data/validation/*/
+
+# vs code
+.vscode
