@@ -31,7 +31,12 @@ It uses [PIL](https://pillow.readthedocs.io/en/stable/), Python's imaging librar
 ```
     # python image_gen.py <src_folder> --ratio <validtion_data>
     # Run 'python image_gen.py -h' for more information
-    python image_gen.py Fruit_images --ratio 0.25
+    
+    # Fow windows
+    python image_gen.py D:\myDocuments\Fruit_images --ratio 0.25
+    
+    # For linux
+    python image_gen.py ~/home/Downloads/Fruit_images --ratio 0.25
 ```
 
 
