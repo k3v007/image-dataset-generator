@@ -78,6 +78,7 @@ for sub_folder in sub_folders:
             images = get_all_images(itype_folder)
             for img_path in images:
                 img = Image.open(img_path)
+                img = img.convert("RGB")
                 img_ext = os.path.splitext(img_path)[1]
 
                 # Resizing images close to 225 x 225
